@@ -15,7 +15,7 @@
 
 // Select the frequency we want to tune to by way
 // of selecting the channel for the desired frequency
-uint16_t channel = 145;
+uint16_t channel = 209;
    // assuming band starts at 87.0MHz (per settings below)
    // and channel spacing of 100kHz (0.1MHz) (per settings below)
    // then channel can be derived as follows:
@@ -273,7 +273,7 @@ void setup()
 {
  
   Serial.begin(9600);
-  Serial.println("A20150415 RDA5807M FM Tuner Example");
+  Serial.println("\n\nA20150415 RDA5807M FM Tuner Example\n\n");
   
   Wire.begin(); // join i2c bus (address optional for master)
   
