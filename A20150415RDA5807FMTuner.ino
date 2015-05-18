@@ -3,6 +3,8 @@
 // lucsmall.com
 // 20150518
 
+// Find this code at: https://github.com/lucsmall/Arduino-RDA5807M
+
 // See these videos for more:
 // https://www.youtube.com/watch?v=2j1hX4uzkQ8
 // https://youtu.be/4pZmkeqg5h8
