@@ -6,8 +6,12 @@
 // Find this code at: https://github.com/lucsmall/Arduino-RDA5807M
 
 // See these videos for more:
+// "Talking about my Arduino sketch for the RDA5807M FM Radio IC"
+// http://youtu.be/9TegkAu96nE
+
 // "Connecting the RDA5807M FM Radio IC to an Arduino"
 // https://youtu.be/2j1hX4uzkQ8
+
 // "Making my Arduino controlled RDA5807M FM Radio"
 // https://youtu.be/4pZmkeqg5h8
 
@@ -260,7 +264,7 @@ uint8_t tune_config[] = {
     // 0 = presumably disabled
     
     // TUNE commence tune operation 
-    // 0 = disable (i.e. don't tune to selected channel)
+    // 1 = enable (i.e. tune to selected channel)
     
     // BAND band select
     // 00 = select the 87-108MHz band
