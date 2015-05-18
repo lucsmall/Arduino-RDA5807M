@@ -6,7 +6,9 @@
 // Find this code at: https://github.com/lucsmall/Arduino-RDA5807M
 
 // See these videos for more:
-// https://www.youtube.com/watch?v=2j1hX4uzkQ8
+// "Connecting the RDA5807M FM Radio IC to an Arduino"
+// https://youtu.be/2j1hX4uzkQ8
+// "Making my Arduino controlled RDA5807M FM Radio"
 // https://youtu.be/4pZmkeqg5h8
 
 #include <Wire.h>
